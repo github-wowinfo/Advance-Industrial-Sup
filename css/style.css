@@ -819,7 +819,7 @@ h3 {
 
 /* line 1, ../../Arafath/CL/December/233. Startup/HTML/scss/_slider.scss */
 .slider_bg_1 {
-  background-image: url(../img/banner/banner.jpg);
+  background-image: url(../img/banner/banner2.jpg);
 }
 
 /* line 4, ../../Arafath/CL/December/233. Startup/HTML/scss/_slider.scss */
@@ -1120,6 +1120,7 @@ h3 {
   background-size: cover;
   background-position: center center;
 }
+
 
 @media (max-width: 767px) {
   /* line 4, ../../Arafath/CL/December/233. Startup/HTML/scss/_about.scss */
@@ -1438,7 +1439,7 @@ h3 {
 
 /* line 1, ../../Arafath/CL/December/233. Startup/HTML/scss/_bradcam.scss */
 .bradcam_bg_1 {
-  background-image: url(../img/banner/bradcam.png);
+  background-image: url(../img/banner/about1.jpg);
 }
 
 /* line 4, ../../Arafath/CL/December/233. Startup/HTML/scss/_bradcam.scss */
