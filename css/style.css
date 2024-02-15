@@ -1120,7 +1120,7 @@ h3 {
 /* line 4, ../../Arafath/CL/December/233. Startup/HTML/scss/_about.scss */
 .about_area::before {
   content: '';
-  background-image: url(../img/about/FR-about4.jpg);
+  background-image: url(../img/about/About-us02.png);
   left: 0;
   top: 0;
   height: 100%;
@@ -1300,8 +1300,8 @@ h3 {
 
 /* line 6, ../../Arafath/CL/December/233. Startup/HTML/scss/_footer.scss */
 .footer .footer_top {
-  padding-top: 100px;
-  padding-bottom: 160px;
+  padding-top: 50px;
+  padding-bottom: 60px;
   background: #1F1F1F;
 }
 
@@ -1324,42 +1324,49 @@ h3 {
 @media (min-width: 992px) and (max-width: 1200px) {
   /* line 6, ../../Arafath/CL/December/233. Startup/HTML/scss/_footer.scss */
   .footer .footer_top {
-    padding-top: 100px;
-    padding-bottom: 100px;
+    padding-top: 50px;
+    padding-bottom: 50px;
   }
 }
 
 @media (max-width: 767px) {
   /* line 22, ../../Arafath/CL/December/233. Startup/HTML/scss/_footer.scss */
   .footer .footer_top .menu_links {
+  display: inline-block;
     margin-top: 15px;
   }
 }
 
 /* line 27, ../../Arafath/CL/December/233. Startup/HTML/scss/_footer.scss */
 .footer .footer_top .menu_links ul li {
-  display: inline-block;
-  margin-right: 46px;
+  display: flex;
+  margin-left: 46px;
+  margin-top: 15px;
 }
 
 @media (max-width: 767px) {
   /* line 27, ../../Arafath/CL/December/233. Startup/HTML/scss/_footer.scss */
   .footer .footer_top .menu_links ul li {
-    margin-right: 10px;
+    margin-left: 10px;
+    display: inline-block;
   }
 }
 
 @media (min-width: 992px) and (max-width: 1200px) {
   /* line 27, ../../Arafath/CL/December/233. Startup/HTML/scss/_footer.scss */
   .footer .footer_top .menu_links ul li {
-    margin-right: 30px;
+    margin-left: 30px;
   }
+  .footer .footer_top .menu_links{
+  display: inline-block;
+  }
+
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
   /* line 27, ../../Arafath/CL/December/233. Startup/HTML/scss/_footer.scss */
   .footer .footer_top .menu_links ul li {
-    margin-right: 30px;
+    margin-left: 30px;
   }
 }
 
@@ -2626,6 +2633,20 @@ h3 {
   color: #8a8a8a;
 }
 
+.contact-info .Address-body h3 {
+  font-size: 16px;
+  padding-top: 10px !important;
+  margin-bottom: 0;
+}
+
+/* line 30, ../../Arafath/CL/December/233. Startup/HTML/scss/_contact.scss */
+.contact-info .address-body h3 a:hover {
+  color: #ff5e13;
+}
+
+/* line 36, ../../Arafath/CL/December/233. Startup/HTML/scss/_contact.scss */
+
+
 /*=================== contact banner end ====================*/
 /*=================== contact form start ====================*/
 /* line 45, ../../Arafath/CL/December/233. Startup/HTML/scss/_contact.scss */
@@ -2690,6 +2711,21 @@ h3 {
 .contact-section {
   padding: 130px 0 100px;
 }
+
+.address-card {
+            border: 1px solid #ddd;
+            padding: 15px;
+            margin-bottom: 20px;
+            color: white;
+        }
+        .address-card .icon {
+            font-size: 25px;
+            color: #007bff;
+        }
+        .address-card .address {
+            margin-top: 10px;
+            font-size: 16px;
+        }
 
 @media (max-width: 991px) {
   /* line 133, ../../Arafath/CL/December/233. Startup/HTML/scss/_contact.scss */
