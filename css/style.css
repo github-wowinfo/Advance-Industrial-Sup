@@ -600,7 +600,9 @@ h3 {
 .header-area .main-header-area .logo-img {
   text-align: left;
 }
-
+.header-area .main-header-area .logo-img a img{
+z-index: 2 !important;
+}
 @media (max-width: 767px) {
   /* line 30, ../../Arafath/CL/December/233. Startup/HTML/scss/_header.scss */
   .header-area .main-header-area .logo-img {
@@ -825,7 +827,7 @@ h3 {
 
 /* line 4, ../../Arafath/CL/December/233. Startup/HTML/scss/_slider.scss */
 .slider_bg_2 {
-  background-image: url(../img/banner/FR-Banner3.png);
+  background-image: url(../img/banner/FR-Banner3.jpg);
 }
 
 /* line 9, ../../Arafath/CL/December/233. Startup/HTML/scss/_slider.scss */
@@ -870,7 +872,7 @@ h3 {
 .slider_area .single_slider .slider_text h3 {
   color: #FFF;
   font-family: "Roboto", sans-serif;
-  font-size: 60px;
+  font-size: 40px;
   font-weight: 400;
   line-height: 84px;
   margin-top: 54px;
@@ -1120,7 +1122,7 @@ h3 {
 /* line 4, ../../Arafath/CL/December/233. Startup/HTML/scss/_about.scss */
 .about_area::before {
   content: '';
-  background-image: url(../img/about/About-us02.png);
+  background-image: url(../img/about/about3.jpg);
   left: 0;
   top: 0;
   height: 100%;
@@ -1217,7 +1219,7 @@ h3 {
 
 .about_image{
 /* height: 500px; */
-            max-width: 500px;
+            max-width: 600px;
             float: left;
             position: sticky;
             padding: 10px;
@@ -1301,7 +1303,7 @@ h3 {
 /* line 6, ../../Arafath/CL/December/233. Startup/HTML/scss/_footer.scss */
 .footer .footer_top {
   padding-top: 50px;
-  padding-bottom: 60px;
+  padding-bottom: 30px;
   background: #1F1F1F;
 }
 
@@ -1340,16 +1342,21 @@ h3 {
 /* line 27, ../../Arafath/CL/December/233. Startup/HTML/scss/_footer.scss */
 .footer .footer_top .menu_links ul li {
   display: flex;
-  margin-left: 46px;
+  font-size: 30px;
+  /* margin-left: 46px; */
   margin-top: 15px;
 }
 
 @media (max-width: 767px) {
   /* line 27, ../../Arafath/CL/December/233. Startup/HTML/scss/_footer.scss */
   .footer .footer_top .menu_links ul li {
-    margin-left: 10px;
-    display: inline-block;
+    margin: auto .5rem;
+    display: inline-block !important;
   }
+  .footer .footer_top .menu_links ul {
+  padding: 30px;
+  }
+
 }
 
 @media (min-width: 992px) and (max-width: 1200px) {
@@ -1367,6 +1374,10 @@ h3 {
   /* line 27, ../../Arafath/CL/December/233. Startup/HTML/scss/_footer.scss */
   .footer .footer_top .menu_links ul li {
     margin-left: 30px;
+  }
+  .footer .footer_top .menu_links{
+  display: inline-block !important;
+  margin: auto;
   }
 }
 
@@ -2325,7 +2336,7 @@ h3 {
   right: 0;
   top: 0;
   height: 100%;
-  background-image: url(../img/work/work.png);
+  background-image: url(../img/about/about3.jpg);
   background-size: cover;
   background-position: center center;
   -webkit-border-radius: 20px 0 0 20px;
@@ -2611,7 +2622,7 @@ h3 {
 
 /* line 16, ../../Arafath/CL/December/233. Startup/HTML/scss/_contact.scss */
 .contact-info__icon i, .contact-info__icon span {
-  color: #8f9195;
+  color: #ba704d;
   font-size: 27px;
 }
 
@@ -2625,7 +2636,7 @@ h3 {
 
 /* line 30, ../../Arafath/CL/December/233. Startup/HTML/scss/_contact.scss */
 .contact-info .media-body h3 a:hover {
-  color: #ff5e13;
+  color: #ba704d;
 }
 
 /* line 36, ../../Arafath/CL/December/233. Startup/HTML/scss/_contact.scss */
@@ -2633,14 +2644,17 @@ h3 {
   color: #8a8a8a;
 }
 
-.contact-info .Address-body h3 {
+.contact-info .Address-body p {
   font-size: 16px;
   padding-top: 10px !important;
   margin-bottom: 0;
 }
+.contact-info .Address-body p a{
+  color: white !important;
+}
 
 /* line 30, ../../Arafath/CL/December/233. Startup/HTML/scss/_contact.scss */
-.contact-info .address-body h3 a:hover {
+.contact-info .address-body p a:hover {
   color: #ff5e13;
 }
 
@@ -2711,21 +2725,6 @@ h3 {
 .contact-section {
   padding: 130px 0 100px;
 }
-
-.address-card {
-            border: 1px solid #ddd;
-            padding: 15px;
-            margin-bottom: 20px;
-            color: white;
-        }
-        .address-card .icon {
-            font-size: 25px;
-            color: #007bff;
-        }
-        .address-card .address {
-            margin-top: 10px;
-            font-size: 16px;
-        }
 
 @media (max-width: 991px) {
   /* line 133, ../../Arafath/CL/December/233. Startup/HTML/scss/_contact.scss */
