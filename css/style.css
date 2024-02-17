@@ -162,19 +162,6 @@ h3 {
   }
 }
 
-/* line 121, ../../Arafath/CL/December/233. Startup/HTML/scss/theme-default.scss */
-
-/* line 125, ../../Arafath/CL/December/233. Startup/HTML/scss/theme-default.scss */
-
-/* line 128, ../../Arafath/CL/December/233. Startup/HTML/scss/theme-default.scss */
-
-/* line 133, ../../Arafath/CL/December/233. Startup/HTML/scss/theme-default.scss */
-
-/* line 136, ../../Arafath/CL/December/233. Startup/HTML/scss/theme-default.scss */
-
-/* line 139, ../../Arafath/CL/December/233. Startup/HTML/scss/theme-default.scss */
-
-/* line 144, ../../Arafath/CL/December/233. Startup/HTML/scss/theme-default.scss */
 .overlay {
   position: relative;
   z-index: 0;
@@ -563,7 +550,7 @@ h3 {
 
 /* line 14, ../../Arafath/CL/December/233. Startup/HTML/scss/_header.scss */
 .header-area .main-header-area {
-  padding: 0 200px;
+  padding: 0 20px;
 }
 
 @media (max-width: 767px) {
@@ -585,14 +572,14 @@ h3 {
 @media (min-width: 992px) and (max-width: 1200px) {
   /* line 14, ../../Arafath/CL/December/233. Startup/HTML/scss/_header.scss */
   .header-area .main-header-area {
-    padding: 0 30px;
+    padding: 0 60px 0 0;
   }
 }
 
 @media (min-width: 1200px) and (max-width: 1500px) {
   /* line 14, ../../Arafath/CL/December/233. Startup/HTML/scss/_header.scss */
   .header-area .main-header-area {
-    padding: 0 70px;
+    padding: 0 50px;
   }
 }
 
@@ -626,7 +613,7 @@ z-index: 2 !important;
 
 /* line 44, ../../Arafath/CL/December/233. Startup/HTML/scss/_header.scss */
 .header-area .main-header-area .main-menu {
-  text-align: center;
+  text-align: end;
 }
 
 /* line 47, ../../Arafath/CL/December/233. Startup/HTML/scss/_header.scss */
@@ -643,7 +630,7 @@ z-index: 2 !important;
   text-transform: capitalize;
   font-weight: 600;
   display: inline-block;
-  padding: 40px 0;
+  padding: 30px 0 0 0;
   font-family: "Muli", sans-serif;
   position: relative;
 }
@@ -1486,7 +1473,9 @@ z-index: 2 !important;
 .breadcam_bg_2 {
   background-image: url(../img/banner/banner2.jpg);
 }
-
+.breadcam_bg_4 {
+  background-image: url(../img/aisimage/305-02.jpg);
+}
 /* line 7, ../../Arafath/CL/December/233. Startup/HTML/scss/_bradcam.scss */
 .breadcam_bg_3 {
   background-image: url(../img/banner/bradcam4.jpg);
@@ -1848,16 +1837,16 @@ z-index: 2 !important;
 
 /* line 2, ../../Arafath/CL/December/233. Startup/HTML/scss/_portfolio.scss */
 .portfolio_image_area {
-  padding-top: 147px;
-  padding-bottom: 130px;
+  padding-top: 50px;
+  padding-bottom: 50px;
   position: relative;
 }
 
 @media (max-width: 767px) {
   /* line 2, ../../Arafath/CL/December/233. Startup/HTML/scss/_portfolio.scss */
   .portfolio_image_area {
-    padding-top: 70px;
-    padding-bottom: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
   }
 }
 
@@ -1878,7 +1867,7 @@ z-index: 2 !important;
 /* line 24, ../../Arafath/CL/December/233. Startup/HTML/scss/_portfolio.scss */
 .portfolio_image_area .single_Portfolio {
   position: relative;
-  margin-bottom: 30px;
+  margin-bottom: 10px;
   overflow: hidden;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
@@ -1887,7 +1876,7 @@ z-index: 2 !important;
 
 /* line 29, ../../Arafath/CL/December/233. Startup/HTML/scss/_portfolio.scss */
 .portfolio_image_area .single_Portfolio .portfolio_thumb {
-  height: 500px;
+  height: 480px;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
   border-radius: 5px;
@@ -1903,8 +1892,9 @@ z-index: 2 !important;
 
 /* line 36, ../../Arafath/CL/December/233. Startup/HTML/scss/_portfolio.scss */
 .portfolio_image_area .single_Portfolio .portfolio_thumb img {
-  width: 100%;
+  width: 80%;
   height: 100%;
+  margin: 0 10%;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
   border-radius: 5px;
@@ -2360,7 +2350,7 @@ z-index: 2 !important;
 
 /* line 39, ../../Arafath/CL/December/233. Startup/HTML/scss/_work.scss */
 .how_we_work_area .work_info {
-  padding: 180px 0;
+  padding: 45px 0;
 }
 
 @media (max-width: 767px) {
