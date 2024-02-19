@@ -1880,6 +1880,7 @@ z-index: 2 !important;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
   border-radius: 5px;
+  background-color: #f1f2f2;
   overflow: hidden;
 }
 
@@ -1892,14 +1893,20 @@ z-index: 2 !important;
 
 /* line 36, ../../Arafath/CL/December/233. Startup/HTML/scss/_portfolio.scss */
 .portfolio_image_area .single_Portfolio .portfolio_thumb img {
-  width: 80%;
+  /* width: %; */
+  height: 100%;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+}
+.portfolio_image_area .single_Portfolio .portfolio_thumb .img1 {
+  /* width: %; */
   height: 100%;
   margin: 0 10%;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
   border-radius: 5px;
 }
-
 /* line 42, ../../Arafath/CL/December/233. Startup/HTML/scss/_portfolio.scss */
 .portfolio_image_area .single_Portfolio .portfolio_hover {
   position: absolute;
@@ -1926,7 +1933,7 @@ z-index: 2 !important;
 }
 
 /* line 56, ../../Arafath/CL/December/233. Startup/HTML/scss/_portfolio.scss */
-.portfolio_image_area .single_Portfolio .portfolio_hover .title {
+/* .portfolio_image_area .single_Portfolio .portfolio_hover .title {
   position: absolute;
   top: 50%;
   left: 0;
@@ -1936,7 +1943,7 @@ z-index: 2 !important;
   -moz-transform: translateY(-50%);
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
-}
+} */
 
 /* line 64, ../../Arafath/CL/December/233. Startup/HTML/scss/_portfolio.scss */
 .portfolio_image_area .single_Portfolio .portfolio_hover span {
