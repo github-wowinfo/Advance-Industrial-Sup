@@ -860,7 +860,7 @@ h3 {
 }
 
 .slider_area1 .single_slider {
-  height: 320px !important;
+  height: 350px !important;
 
 }
 
@@ -1266,7 +1266,21 @@ h3 {
 }
 
 .about_image img {
-  border-radius: 100px 120px 100px 100px;
+  border-radius: 30px 50px 30px 50px;
+}
+
+.image-container {
+  display: flex;
+  /* height: 500px; */
+}
+
+.image-container img {
+  width: 50%;
+  /* Adjust the width as needed */
+  height: 430px;
+  margin-right: 15px;
+
+  /* Adjust the spacing between images as needed */
 }
 
 /* line 1, ../../Arafath/CL/December/233. Startup/HTML/scss/_gallery.scss */
@@ -1448,7 +1462,7 @@ h3 {
   }
 }
 
-@media (min-width: 1024px) {
+@media (max-width: 1024px) {
   .contact-info__icon {
     margin-left: 22px !important;
   }
