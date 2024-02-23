@@ -525,9 +525,15 @@ h3 {
   position: absolute;
   right: 0px;
   top: 0;
-  width: 60%;
+  width: 40%;
   z-index: 9;
+  text-align: center;
 }
+.mobile_menu ul{
+  background-color: #1F1F1F;
+
+}
+
 
 /* line 44, ../../Arafath/CL/December/233. Startup/HTML/scss/_slick-nav.scss */
 
@@ -1392,6 +1398,10 @@ h3 {
   margin-top: 15px;
 }
 
+.footer .footer_top .menu_links ul li a i{
+color: #ba704d;
+}
+
 @media (max-width: 767px) {
 
   /* line 27, ../../Arafath/CL/December/233. Startup/HTML/scss/_footer.scss */
@@ -1406,7 +1416,6 @@ h3 {
 
   .footer_logo img {
     padding-bottom: 40px;
-    margin-left: -35px;
   }
 
   .address-body {
@@ -1981,7 +1990,7 @@ h3 {
   border: 1px solid lightgray;
 }
 
-.single_Portfolio .title:hover {
+.single_Portfolio .title {
   padding: 30px;
 }
 
@@ -2021,16 +2030,33 @@ h3 {
 }
 
 /* line 36, ../../Arafath/CL/December/233. Startup/HTML/scss/_portfolio.scss */
-.portfolio_image_area .single_Portfolio .portfolio_thumb img {
-  /* width: %; */
+.portfolio_image_area .single_Portfolio .portfolio_thumb .img1 {
+  width: 40%;
+  height: 100%;
+  margin: 0 4.5%;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+}
+.portfolio_image_area .single_Portfolio .portfolio_thumb .img2 {
+  width: 40%;
+  margin: 0 5%;
   height: 100%;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
   border-radius: 5px;
 }
+.portfolio_image_area .single_Portfolio .portfolio_thumb .img3 {
+  width: 60%;
+  height: 100%;
+  margin: 0 20%;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+}
 
-.portfolio_image_area .single_Portfolio .portfolio_thumb .img1 {
-  /* width: %; */
+.portfolio_image_area .single_Portfolio .portfolio_thumb .img4 {
+  width: 80%;
   height: 100%;
   margin: 0 10%;
   -webkit-border-radius: 5px;
@@ -2064,7 +2090,7 @@ h3 {
 }
 
 /* line 56, ../../Arafath/CL/December/233. Startup/HTML/scss/_portfolio.scss */
-/* .portfolio_image_area .single_Portfolio .portfolio_hover .title {
+.portfolio_image_area .single_Portfolio .portfolio_hover .title {
   position: absolute;
   top: 50%;
   left: 0;
@@ -2074,7 +2100,7 @@ h3 {
   -moz-transform: translateY(-50%);
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
-} */
+}
 
 /* line 64, ../../Arafath/CL/December/233. Startup/HTML/scss/_portfolio.scss */
 .portfolio_image_area .single_Portfolio .portfolio_hover span {
@@ -2092,6 +2118,7 @@ h3 {
   margin-top: 11px;
   margin-bottom: 25px;
 }
+
 
 /* line 78, ../../Arafath/CL/December/233. Startup/HTML/scss/_portfolio.scss */
 .portfolio_image_area .single_Portfolio .portfolio_hover .boxed-btn3:hover {
@@ -2121,109 +2148,37 @@ h3 {
   z-index: 9;
 }
 
-/* line 1, ../../Arafath/CL/December/233. Startup/HTML/scss/_experts.scss */
-
-/* line 4, ../../Arafath/CL/December/233. Startup/HTML/scss/_experts.scss */
 
 @media (max-width: 767px) {
   /* line 1, ../../Arafath/CL/December/233. Startup/HTML/scss/_experts.scss */
+
+
 }
 
 /* line 12, ../../Arafath/CL/December/233. Startup/HTML/scss/_experts.scss */
 
 @media (max-width: 767px) {
   /* line 12, ../../Arafath/CL/December/233. Startup/HTML/scss/_experts.scss */
+  .portfolio_image_area .single_Portfolio .portfolio_hover p {
+  font-size: 16px;
+  line-height: 18px;
+  padding: 0 10px;
 }
-
-/* line 22, ../../Arafath/CL/December/233. Startup/HTML/scss/_experts.scss */
-
-/* line 26, ../../Arafath/CL/December/233. Startup/HTML/scss/_experts.scss */
-
-/* line 32, ../../Arafath/CL/December/233. Startup/HTML/scss/_experts.scss */
-
-/* line 37, ../../Arafath/CL/December/233. Startup/HTML/scss/_experts.scss */
-
-/* line 43, ../../Arafath/CL/December/233. Startup/HTML/scss/_experts.scss */
-
-/* line 51, ../../Arafath/CL/December/233. Startup/HTML/scss/_experts.scss */
-
-/* line 55, ../../Arafath/CL/December/233. Startup/HTML/scss/_experts.scss */
-
-/* line 57, ../../Arafath/CL/December/233. Startup/HTML/scss/_experts.scss */
-
-/* line 60, ../../Arafath/CL/December/233. Startup/HTML/scss/_experts.scss */
-
-/* line 67, ../../Arafath/CL/December/233. Startup/HTML/scss/_experts.scss */
-
-/* line 89, ../../Arafath/CL/December/233. Startup/HTML/scss/_experts.scss */
-
-/* line 94, ../../Arafath/CL/December/233. Startup/HTML/scss/_experts.scss */
-
-/* line 101, ../../Arafath/CL/December/233. Startup/HTML/scss/_experts.scss */
-
-/* line 3, ../../Arafath/CL/December/233. Startup/HTML/scss/_emergency_contact.scss */
-
-@media (max-width: 767px) {
-  /* line 3, ../../Arafath/CL/December/233. Startup/HTML/scss/_emergency_contact.scss */
-}
-
-/* line 12, ../../Arafath/CL/December/233. Startup/HTML/scss/_emergency_contact.scss */
-
-/* line 14, ../../Arafath/CL/December/233. Startup/HTML/scss/_emergency_contact.scss */
-
-@media (min-width: 1200px) and (max-width: 1500px) {
-  /* line 14, ../../Arafath/CL/December/233. Startup/HTML/scss/_emergency_contact.scss */
-}
-
-/* line 22, ../../Arafath/CL/December/233. Startup/HTML/scss/_emergency_contact.scss */
-
-/* line 30, ../../Arafath/CL/December/233. Startup/HTML/scss/_emergency_contact.scss */
-
-/* line 36, ../../Arafath/CL/December/233. Startup/HTML/scss/_emergency_contact.scss */
-
-/* line 39, ../../Arafath/CL/December/233. Startup/HTML/scss/_emergency_contact.scss */
-
-/* line 1, ../../Arafath/CL/December/233. Startup/HTML/scss/_prising.scss */
-
-/* line 4, ../../Arafath/CL/December/233. Startup/HTML/scss/_prising.scss */
-
-@media (max-width: 767px) {
-  /* line 1, ../../Arafath/CL/December/233. Startup/HTML/scss/_prising.scss */
-}
-
-/* line 10, ../../Arafath/CL/December/233. Startup/HTML/scss/_prising.scss */
-
-@media (max-width: 767px) {
-  /* line 10, ../../Arafath/CL/December/233. Startup/HTML/scss/_prising.scss */
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
   /* line 10, ../../Arafath/CL/December/233. Startup/HTML/scss/_prising.scss */
+.portfolio_image_area .single_Portfolio .portfolio_hover p{
+font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #727272;
+    margin: 0 13px !important;
+    margin-bottom: 13px !important;
+    font-family: "Muli", sans-serif;
+}
 }
 
-/* line 25, ../../Arafath/CL/December/233. Startup/HTML/scss/_prising.scss */
-
-/* line 29, ../../Arafath/CL/December/233. Startup/HTML/scss/_prising.scss */
-
-/* line 32, ../../Arafath/CL/December/233. Startup/HTML/scss/_prising.scss */
-
-/* line 37, ../../Arafath/CL/December/233. Startup/HTML/scss/_prising.scss */
-
-/* line 44, ../../Arafath/CL/December/233. Startup/HTML/scss/_prising.scss */
-
-/* line 46, ../../Arafath/CL/December/233. Startup/HTML/scss/_prising.scss */
-
-/* line 50, ../../Arafath/CL/December/233. Startup/HTML/scss/_prising.scss */
-
-/* line 52, ../../Arafath/CL/December/233. Startup/HTML/scss/_prising.scss */
-
-/* line 57, ../../Arafath/CL/December/233. Startup/HTML/scss/_prising.scss */
-
-/* line 60, ../../Arafath/CL/December/233. Startup/HTML/scss/_prising.scss */
-
-/* line 65, ../../Arafath/CL/December/233. Startup/HTML/scss/_prising.scss */
-
-/* line 2, ../../Arafath/CL/December/233. Startup/HTML/scss/_team.scss */
 .team_area {
   padding-top: 155px;
   padding-bottom: 122px;
@@ -2240,11 +2195,19 @@ h3 {
 
 @media (min-width: 768px) and (max-width: 991px) {
 
-  /* line 2, ../../Arafath/CL/December/233. Startup/HTML/scss/_team.scss */
   .team_area {
     padding-top: 100px;
     padding-bottom: 70px;
   }
+
+  .portfolio_image_area .single_Portfolio .portfolio_thumb .img3 {
+  width: min-content;
+  height: 100%;
+  margin: 0 25%;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+}
 }
 
 /* line 13, ../../Arafath/CL/December/233. Startup/HTML/scss/_team.scss */
