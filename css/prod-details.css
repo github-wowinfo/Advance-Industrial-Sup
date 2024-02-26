@@ -96,14 +96,31 @@
 }
 
 .dtable {
-    max-width: 800px !important;
+    width: max-content;
 
 }
 
-.dtable thead {
-    background-color: hsl(28, 61%, 40%);
+.table thead {
+    background: rgb(230, 159, 92);
+    background: linear-gradient(277deg, rgba(230, 159, 92, 1) 0%, rgba(190, 116, 79, 1) 50%, rgba(162, 87, 66, 1) 100%);
     color: white;
+    border: 1px solid black;
     padding: 10px !important;
+}
+
+.second-table {
+    display: flex;
+
+    .s1 {
+        width: 60%;
+        padding: 0;
+    }
+
+    .s2 {
+        width: 40%;
+        padding: 20px;
+        padding-top: 0;
+    }
 }
 
 .img6 {
@@ -114,13 +131,16 @@
 }
 
 .img7 {
-    height: 700px;
+    /* height: 500px; */
+    max-height: 700px;
     padding: 50px;
+    padding-left: 0;
 }
 
 .img8 {
-    float: left;
-    height: 500px;
+    float: right;
+    padding-top: 50px;
+    height: 580px;
 }
 
 
@@ -135,29 +155,22 @@
     }
 
     .prod-image {
-        display: flex;
-        padding: 24px;
-
-        .img5 {
-            height: 350px;
-            float: left;
-            ;
-            object-fit: cover;
-            padding-top: 20px;
-            padding-left: 40px;
-            flex-shrink: 2;
-        }
+        display: none;
     }
 
     .img6 {
+        display: block;
         float: left !important;
         height: 350px !important;
         padding: 20px !important;
     }
 
     .img7 {
-        height: 700px;
-        padding: 50px;
+        display: none;
+    }
+
+    .img8 {
+        display: none;
     }
 
     .prod-details {
@@ -165,8 +178,24 @@
         height: 100%;
 
         padding: 50px !important;
-        flex-shrink: 2;
+    }
 
+    .dtable {
+        width: 100%;
+    }
+
+    .second-table {
+        display: block;
+
+        .s1 {
+            width: 100%;
+            padding: 20px;
+        }
+
+        .s2 {
+            width: 100% !important;
+            pad: 30px;
+        }
     }
 }
 
@@ -187,6 +216,14 @@
         padding: 20px;
     }
 
+    .img7 {
+        display: none;
+    }
+
+    .img8 {
+        display: none;
+    }
+
     .prod-details {
         /* position: sticky; */
         width: 100%;
@@ -200,4 +237,42 @@
 
     }
 
+    .second-table {
+        display: block;
+
+        .s1 {
+            width: 100%;
+        }
+
+        .s2 {
+            width: 100% !important;
+        }
+    }
+
+}
+
+/* For small screens like mobile phones */
+@media (max-width: 767px) {
+
+    /* Remove the border from the table */
+    .ttable {
+        border: none;
+    }
+
+    /* Hide the header row */
+    .ttable thead {
+        display: table-column;
+    }
+
+    /* Make the table cells stack vertically */
+    .ttable td {
+        display: block;
+        padding: 8px 16px;
+        border-bottom: 1px solid #ddd;
+    }
+
+    /* Add some spacing between rows */
+    .ttable tr {
+        margin-bottom: 10px;
+    }
 }
