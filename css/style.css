@@ -1415,7 +1415,11 @@ h3 {
 .footer .footer_top .menu_links ul li a i{
 color: #ba704d;
 }
-
+.footer .footer_top .menu_links ul li a:hover{
+i{
+color: white;
+}
+}
 @media (max-width: 767px) {
 
   /* line 27, ../../Arafath/CL/December/233. Startup/HTML/scss/_footer.scss */
@@ -2054,7 +2058,7 @@ color: #ba704d;
 }
 .portfolio_image_area .single_Portfolio .portfolio_thumb .img2 {
   width: 40%;
-  margin: 0 5%;
+  margin: 0 4.5%;
   height: 100%;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
@@ -2177,7 +2181,12 @@ color: #ba704d;
   font-size: 16px;
   line-height: 18px;
   padding: 0 10px;
+
+
 }
+  .mo-view{
+  display: none;
+  }
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
