@@ -872,71 +872,6 @@ h3 {
 
 }
 
-.s-table-305 {
-  max-width: 70%;
-}
-
-.sound-img-305 {
-  width: 650px;
-  padding-left: 50px;
-  height: 250px;
-  border-top-left-radius: 105px;
-  border-top-right-radius: 0;
-  border-bottom-right-radius: 105px;
-  border-bottom-left-radius: 0;
-}
-
-.sound-img-305:hover {
-  -webkit-transform: scaleX(-1);
-  transform: scaleX(-1);
-  width: 650px;
-  padding-right: 50px;
-  height: 250px;
-  border-top-left-radius: 105px;
-  border-top-right-radius: 0;
-  border-bottom-right-radius: 105px;
-  border-bottom-left-radius: 0;
-}
-
-.image-container-305 {
-  overflow: hidden;
-  width: 100%;
-  /* Adjust width as needed */
-  height: auto;
-  /* Keeps the aspect ratio */
-}
-
-.image-container-305 img {
-  transition: transform 0.3s ease;
-  width: 100%;
-  height: 100%;
-}
-
-.image-container-305:hover img {
-  transform: scale(1.1);
-  /* Adjust the scale factor for zoom level */
-}
-
-
-.image-container-409 {
-  overflow: hidden;
-  width: 560px;
-  /* Width of the image */
-  height: 318px;
-  /* Height of the image */
-}
-
-.image-container-409 img {
-  transition: transform 0.3s ease;
-  width: 100%;
-  height: 100%;
-}
-
-.image-container-409:hover img {
-  transform: scale(1.1);
-  /* Adjust the scale factor for zoom level */
-}
-
 @media (max-width: 767px) {
 
   /* line 9, ../../Arafath/CL/December/233. Startup/HTML/scss/_slider.scss */
@@ -1651,7 +1586,10 @@ h3 {
 
 /* line 1, ../../Arafath/CL/December/233. Startup/HTML/scss/_bradcam.scss */
 .bradcam_bg_1 {
-  background-image: url(../img/banner/about.jpg);
+  background-image: url(../img/banner/product-banner.png);
+  background-size: contain !important;
+  background-color: #706f6f73 !important;
+
 }
 
 /* line 4, ../../Arafath/CL/December/233. Startup/HTML/scss/_bradcam.scss */
@@ -1661,6 +1599,7 @@ h3 {
 
 .breadcam_bg_807 {
   background-image: url(../img/about/fr-wrap-3.jpg);
+  background-size: auto !important;
 }
 
 .breadcam_bg_305 {
