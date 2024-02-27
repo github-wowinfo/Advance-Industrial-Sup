@@ -294,7 +294,7 @@
     .img6 {
         display: block !important;
         float: left;
-        height: 350px;
+        height: 320px;
         padding: 20px;
     }
 
@@ -343,31 +343,19 @@
         display: none;
     }
 
+    .bradcam_bg_1 {
+        background-size: auto !important;
+    }
+
 }
 
 /* For small screens like mobile phones */
 @media (max-width: 767px) {
 
-    /* Remove the border from the table */
-    .ttable {
-        border: none;
-    }
-
-    /* Hide the header row */
-    .ttable thead {
-        display: table-column;
-    }
-
-    /* Make the table cells stack vertically */
-    .ttable td {
-        display: block;
-        padding: 8px 16px;
-        border-bottom: 1px solid #ddd;
-    }
-
-    /* Add some spacing between rows */
-    .ttable tr {
-        margin-bottom: 10px;
+    .ttable td,
+    .ttable th {
+        padding: 0 2px !important;
+        font-size: 11px !important;
     }
 
     .frmortar1 {

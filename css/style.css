@@ -1432,8 +1432,16 @@ h3 {
     display: inline-block !important;
   }
 
+  .footer .footer_top .menu_links ul li a {
+    font-size: 12px !important;
+  }
+
   .footer .footer_top .menu_links ul {
-    padding: 22px;
+    padding: 22px 0;
+  }
+
+  .contact-info__icon {
+    margin-left: 10px;
   }
 
   .footer_logo img {
@@ -1673,6 +1681,13 @@ h3 {
   /* line 35, ../../Arafath/CL/December/233. Startup/HTML/scss/_bradcam.scss */
   .bradcam_area h3 {
     font-size: 30px;
+  }
+
+  .bradcam_bg_1 {
+    background-image: url(../img/banner/product-banner.png);
+    background-size: auto !important;
+    background-color: #706f6f73 !important;
+
   }
 }
 
