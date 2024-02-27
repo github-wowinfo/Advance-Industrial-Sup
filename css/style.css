@@ -796,7 +796,8 @@ h3 {
   transition: transform 500ms ease, background 500ms ease;
   -webkit-transition: transform 500ms ease, background 500ms ease;
   box-shadow: 0px 3px 16px 0px rgba(0, 0, 0, 0.1);
-  background: #1F1F1F;
+  background: rgb(0, 0, 0);
+  background: linear-gradient(90deg, rgba(0, 0, 0, 1) 17%, rgba(190, 116, 79, 1) 64%, rgba(162, 87, 66, 1) 100%);
 }
 
 /* line 165, ../../Arafath/CL/December/233. Startup/HTML/scss/_header.scss */
@@ -1481,11 +1482,13 @@ h3 {
 .footer .footer_top .menu_links ul li a i {
   color: #ba704d;
 }
-.footer .footer_top .menu_links ul li a:hover{
-i{
-color: white;
+
+.footer .footer_top .menu_links ul li a:hover {
+  i {
+    color: white;
+  }
 }
-}
+
 @media (max-width: 767px) {
 
   /* line 27, ../../Arafath/CL/December/233. Startup/HTML/scss/_footer.scss */
@@ -1648,7 +1651,7 @@ color: white;
 
 /* line 1, ../../Arafath/CL/December/233. Startup/HTML/scss/_bradcam.scss */
 .bradcam_bg_1 {
-  background-image: url(../img/banner/ourProducts.jpg);
+  background-image: url(../img/banner/about.jpg);
 }
 
 /* line 4, ../../Arafath/CL/December/233. Startup/HTML/scss/_bradcam.scss */
@@ -2263,20 +2266,18 @@ color: white;
 
   /* line 12, ../../Arafath/CL/December/233. Startup/HTML/scss/_experts.scss */
   .portfolio_image_area .single_Portfolio .portfolio_hover p {
-<<<<<<< HEAD
     font-size: 16px;
     line-height: 18px;
     padding: 0 10px;
-=======
-  font-size: 16px;
-  line-height: 18px;
-  padding: 0 10px;
+    font-size: 16px;
+    line-height: 18px;
+    padding: 0 10px;
 
 
-}
-  .mo-view{
-  display: none;
->>>>>>> 34c85f4698366c4b656a2b4b2048b7cb3aa5965d
+  }
+
+  .mo-view {
+    display: none;
   }
 }
 

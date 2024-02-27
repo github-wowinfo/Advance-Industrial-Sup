@@ -132,15 +132,23 @@
 
 .img7 {
     /* height: 500px; */
+    /* float: right; */
     max-height: 700px;
     padding: 50px;
     padding-left: 0;
+    border-radius: 100px 0;
 }
 
 .img8 {
     float: right;
-    padding-top: 50px;
     height: 580px;
+    border-radius: 100px;
+}
+
+.img9 {
+    float: right;
+    width: 40%;
+    border-radius: 100px 0;
 }
 
 
@@ -159,7 +167,7 @@
     }
 
     .img6 {
-        display: block;
+        display: block !important;
         float: left !important;
         height: 350px !important;
         padding: 20px !important;
@@ -211,6 +219,7 @@
     }
 
     .img6 {
+        display: block !important;
         float: left;
         height: 350px;
         padding: 20px;
@@ -275,4 +284,20 @@
     .ttable tr {
         margin-bottom: 10px;
     }
+}
+
+@media only screen and (max-width: 1200px) and (min-width: 992px) {
+
+    .img7 {
+        width: 28% !important;
+        padding: 0;
+        margin: 0;
+    }
+
+    .img8 {
+        padding: 0;
+        margin: 0;
+        width: 25% !important;
+    }
+
 }
