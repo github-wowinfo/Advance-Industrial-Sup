@@ -507,6 +507,87 @@ h3 {
   }
 }
 
+/* Mobile Menu */
+.mobile-menu-wrapper {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  z-index: 1000;
+  display: none;
+}
+
+.mobile-menu {
+  position: absolute;
+  top: 0;
+  left: -80%;
+  /* Off canvas initially */
+  width: 70%;
+  height: 100%;
+  background-color: #333;
+  padding: 20px;
+  transition: left 0.3s ease;
+}
+
+.mobile-menu ul {
+  list-style: none;
+  padding: 0;
+  padding-top: 20px;
+  padding-left: 15px;
+}
+
+.mobile-menu ul li {
+  margin-bottom: 20px;
+  color: #fff;
+}
+
+.mobile-menu ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.mobile-menu-logo img {
+  width: 115px;
+  /* Adjust logo size as needed */
+}
+
+.mobile-menu-close {
+  position: absolute;
+  top: 21px;
+  right: 25px;
+  width: 26px;
+  height: 32px;
+  cursor: pointer;
+  background-image: url('../img/svg_icon/cancel.svg');
+  background-size: cover;
+  z-index: 1;
+}
+
+/* .submenu li a {
+  color: #e1d7d7 !important;
+} */
+
+/* Mobile Menu Icon */
+.mobile_menu_icon {
+  cursor: pointer;
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  padding: 15px;
+}
+
+.mobile_menu_icon span {
+  display: block;
+  width: 25px;
+  height: 3px;
+  background-color: #fff;
+  margin-bottom: 5px;
+}
+
+
+
 /* line 13, ../../Arafath/CL/December/233. Startup/HTML/scss/_slick-nav.scss */
 
 /* line 28, ../../Arafath/CL/December/233. Startup/HTML/scss/_slick-nav.scss */
@@ -514,6 +595,12 @@ h3 {
 /* line 32, ../../Arafath/CL/December/233. Startup/HTML/scss/_slick-nav.scss */
 
 @media (max-width: 767px) {
+  .submenu {
+    display: none;
+    color: #a19696;
+    /* Hide submenu by default */
+  }
+
   /* line 35, ../../Arafath/CL/December/233. Startup/HTML/scss/_slick-nav.scss */
 }
 
@@ -655,7 +742,7 @@ h3 {
 .header-area .main-header-area .main-menu ul li {
   display: inline-block;
   position: relative;
-  margin: 0 23px;
+  margin: 0 30px;
 }
 
 /* line 57, ../../Arafath/CL/December/233. Startup/HTML/scss/_header.scss */

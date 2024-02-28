@@ -44,9 +44,12 @@
                 <a href="index.html">
                   <img src="img/logo.png" alt="logo">
                 </a>
-                <div class="mobile_menu  d-block d-lg-none"></div>
+                <div class="mobile_menu_icon d-block d-lg-none">
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                </div>
               </div>
-              <div class="mobile_menu  d-block d-lg-none"></div>
             </div>
 
             <div class="col-xl-9 col-lg-8">
@@ -55,7 +58,7 @@
                   <ul id="navigation">
                     <li><a class="active" href="index.html">home</a></li>
                     <li><a href="about.html">About Us</a></li>
-                    <li cl><a>Products <i class="ti-angle-down"></i></a>
+                    <li class="has-submenu"><a>Products <i class="ti-angle-down"></i></a>
                       <ul class="submenu">
                         <li><a href="Product.html">Fire Stopping Products</a></li>
                       </ul>
@@ -70,6 +73,33 @@
       </div>
     </div>
   </header>
+
+  <!-- Mobile Menu -->
+  <div class="mobile-menu-wrapper">
+    <div class="mobile-menu">
+      <!-- Logo and close icon -->
+      <div class="mobile-menu-header">
+        <div class="mobile-menu-logo">
+          <img src="img/logo.png" alt="Logo">
+        </div>
+        <div class="mobile-menu-close"></div> <!-- Close icon here -->
+      </div>
+      <!-- Your menu items here -->
+      <nav>
+        <ul>
+          <li><a class="active" href="index.html">Home</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li class="has-submenu"><a href="#">Products <i class="ti-angle-down"></i></a>
+            <ul class="submenu">
+              <li><a href="Product.html">Fire Stopping Products</a></li>
+            </ul>
+          </li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+
 
   <!-- banner  -->
   <div class="slider_area">
@@ -638,6 +668,7 @@
     integrity="sha512-euoFGowhlaLqXsPWQ48qSkBSCFs3DPRyiwVu3FjR96cMPx+Fr+gpWRhIafcHwqwCqWS42RZhIudOvEI+Ckf6MA=="
     data-cf-beacon='{"rayId":"84adfd954e05f2f3","b":1,"version":"2024.1.0","token":"cd0b4b3a733644fc843ef0b185f98241"}'
     crossorigin="anonymous"></script>
+  <script src="./js/header.js"></script>
 </body>
 
 <!-- Mirrored from preview.colorlib.com/theme/startup2/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 25 Jan 2024 05:07:44 GMT -->
