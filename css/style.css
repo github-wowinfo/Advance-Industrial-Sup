@@ -1727,7 +1727,8 @@ h3 {
 
 /* line 1, ../../Arafath/CL/December/233. Startup/HTML/scss/_bradcam.scss */
 .bradcam_bg_1 {
-  background-image: url(../img/banner/product-banner.png);
+  background-image: url(../img/banner/banner-product.png);
+  /* background-image: url(../img/banner/product-banner.png); */
   background-size: contain !important;
   background-color: #706f6f73 !important;
 
@@ -1826,7 +1827,8 @@ h3 {
   }
 
   .bradcam_bg_1 {
-    background-image: url(../img/banner/product-banner.png);
+    /* background-image: url(../img/banner/product-banner.png); */
+  background-image: url(../img/banner/banner-product.png);
     background-size: auto !important;
     background-color: #706f6f73 !important;
 
