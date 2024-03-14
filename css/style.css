@@ -1429,6 +1429,15 @@ h3 {
   }
   
 }
+ 
+.footer .certified img{
+  border-radius: 15%;
+  width: 50px;
+}
+.footer_bottom{
+  display: flex;
+  justify-content:space-between;
+}
 
 @media (min-width: 768px) and (max-width: 991px) {
   /* line 1, ../../Arafath/CL/December/233. Startup/HTML/scss/_gallery.scss */
@@ -1580,6 +1589,7 @@ h3 {
   .footer_logo img {
     padding-bottom: 40px;
   }
+ 
 
   .address-body {
     padding-top: 20px;
@@ -2152,36 +2162,78 @@ h3 {
   /* padding-bottom: 50px; */
   /* position: relative; */
   /* background-image: url(./img/banner/product-bg.png); */
-  /* background-image: url(../img/aisimage/product-bg.jpg); */
-  background-repeat: no-repeat;
+  /* background-image: url(../img/aisimage/bg1.jpg); */
+  /* background-repeat: no-repeat;
   background-position: center;
-  background-size: cover;
+  background-size: cover; */
+  /* opacity: .7; */
+  /* overflow: hidden; */
+
+  /* background-image: url(../img/aisimage/bg1.jpg); */
+  /* overflow-x: hidden; */
 
 }
-/* bradcam_area::before {
+.product-bg{
+ 
+}
+.product-bg::before{
+  content: '';
     position: absolute;
-    left: 0;
-    top: 0;
+    /* left: 0; */
+    /* top: 0; */
     width: 100%;
-    height: 100%;
-    background: #1F1F1F;
-    opacity: .5;
-    z-index: -1;
-    content: '';
-} */
+    height:108.6em;
+    opacity: .8;
+    background:linear-gradient(to right, rgba(111, 14, 7, 0.6),rgba(248, 248, 248, 0.2)), url(../img/aisimage/bgpro.jpg);
+    /* background-image: linear-gradient(to left,); */
+    background-repeat: no-repeat;
+    background-size: cover;
 
-@media (max-width: 767px) {
+    /* z-index: -1; */
+}
+
+@media (max-width: 768px) {
 
   /* line 2, ../../Arafath/CL/December/233. Startup/HTML/scss/_portfolio.scss */
   .portfolio_image_area {
     padding-top: 20px;
     padding-bottom: 20px;
   }
+  
+  .product-bg::before{
+    content: '';
+      position: absolute;
+      /* left: 0; */
+      /* top: 0; */
+      width: 100%;
+      height:209.8em;
+      opacity: .8;
+      background:linear-gradient(to right, rgba(111, 14, 7, 0.6),rgba(248, 248, 248, 0.2)), url(../img/aisimage/bgpro.jpg);
+      /* background-image: linear-gradient(to left,); */
+      background-repeat: no-repeat;
+      background-size: cover;
+  
+      /* z-index: -1; */
+  }
 }
 
 /* line 10, ../../Arafath/CL/December/233. Startup/HTML/scss/_portfolio.scss */
 
-@media (max-width: 767px) {
+@media (max-width: 425px) {
+  
+  .product-bg::before{
+    content: '';
+      position: absolute;
+      width: 100%;
+      /* height:108.6em; */
+      height:195em;
+      opacity: .8;
+      background:linear-gradient(to right, rgba(111, 14, 7, 0.6),rgba(248, 248, 248, 0.2)), url(../img/aisimage/bgpro.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+  
+      /* z-index: -1; */
+  }
   /* line 10, ../../Arafath/CL/December/233. Startup/HTML/scss/_portfolio.scss */
 }
 
