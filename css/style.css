@@ -2183,8 +2183,8 @@ h3 {
     /* top: 0; */
     width: 100%;
     height:108.6em;
-    opacity: .8;
-    background:linear-gradient(to right, rgba(111, 14, 7, 0.6),rgba(248, 248, 248, 0.2)), url(../img/aisimage/bgpro.jpg);
+    opacity: .4;
+    background:linear-gradient(to top, rgba(111, 14, 7, 0.6),rgba(248, 248, 248, 0.2)), url(../img/aisimage/bgpro.jpg);
     /* background-image: linear-gradient(to left,); */
     background-repeat: no-repeat;
     background-size: cover;
