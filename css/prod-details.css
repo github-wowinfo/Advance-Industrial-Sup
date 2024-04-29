@@ -1,10 +1,10 @@
-@media only screen and  (min-width: 992px) and (min-width: 1024px) {
+/* @media only screen and  (min-width: 992px) and (min-width: 1024px) {
 
 .img5 {
     height: 400px !important;
     object-fit: cover;
 }
-}
+} */
 
 @media only screen and (min-width: 992px) {
     .product-container {
@@ -26,7 +26,7 @@
       
     }
     .img5 {
-        height: 200px !important;
+        height: 300px !important;
         object-fit: cover;
     }
 
